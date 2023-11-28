@@ -23,3 +23,5 @@ const vypocitanaDan = taxed(mesicniHrubaMzda, 15)
 const zdanenaCastka = mesicniHrubaMzda - vypocitanaDan
 
 document.body.innerHTML = `Měsíční mzda po zdanění dělá ${zdanenaCastka} Kč.`
+
+document.title = "Vyhlídalová - Úkol 5"
